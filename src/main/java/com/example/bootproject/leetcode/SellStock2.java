@@ -29,13 +29,13 @@ package com.example.bootproject.leetcode;
 public class SellStock2 {
 
     public static void main(String[] args) {
-//        int[] nums = new int[]{7,1,5,3,6,4};
-//        int[] nums2 = new int[]{1,2,3,4,5};
-//        int[] nums3 = new int[]{7,6,4,3,1};
+        int[] nums = new int[]{7,1,5,3,6,4};
+        int[] nums2 = new int[]{1,2,3,4,5};
+        int[] nums3 = new int[]{7,6,4,3,1};
         int[] nums4 = new int[]{5,2,3,2,6,6,2,9,1,0,7,4,5,0};
-//        System.out.println(maxProfit(nums));
-//        System.out.println(maxProfit(nums2));
-//        System.out.println(maxProfit(nums3));
+        System.out.println(maxProfit(nums));
+        System.out.println(maxProfit(nums2));
+        System.out.println(maxProfit(nums3));
         System.out.println(maxProfit(nums4));
     }
 
